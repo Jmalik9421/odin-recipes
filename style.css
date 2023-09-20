@@ -4,8 +4,9 @@
 }
 
 .recipe {
-    text-align: center;
     list-style-type: none;
+    display: inline-block;
+    text-align: center;
 }
 
 .recipe h2 a{
@@ -13,14 +14,9 @@
     text-decoration: none;
 }
 
-#lasagna{
-    text-align: left;
-}
-
-#onigiri{
+#lasagna,
+#onigiri,
+#chicken-enchiladas {
     text-align: center;
-}
-
-#chicken-enchiladas{
-    text-align: right;
+    margin: 0px 50px
 }
